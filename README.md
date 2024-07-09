@@ -10,7 +10,7 @@ A modular Jekyll include for displaying Creative Commons license badges.
 The badge icons are provided courtesy of [Creative Commons](https://creativecommons.org/share-your-work/). No external imports or local storage of image files are required: the SVG files were converted to base64 encoded data URIs and are used in the CSS files directly.
 
 ### Include parameters
-The badge include has two required parameters: `terms` and `url`. The `terms` parameter helps define the badges to use and the `url` parameter should be a link to the Creative Commons page for the license you're referencing.
+The badge include has two parameters: `terms` and `url`. The `terms` parameter is required and helps define the badges to use and the optional `url` parameter should be a link to the terms of the license.
 
 The `terms` parameter has the following available strings:
 
